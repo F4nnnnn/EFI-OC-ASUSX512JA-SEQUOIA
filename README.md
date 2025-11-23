@@ -18,7 +18,7 @@ macOS | Sequoia 15.7.1
 
 ### Works?
 - [x] Intel graphics acceleration
-- [x] USB
+- [x] All Ports USB A/ USB C
 - [x] Battery readout
 - [x] Keyboard w/ Keyboard Backlight F7 Single FN keys 3 Level
 - [x] TouchPad w/ Advanced Gestures
