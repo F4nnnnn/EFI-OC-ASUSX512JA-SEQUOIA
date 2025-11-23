@@ -1,7 +1,6 @@
-# EFI-OC-ASUSX512JA-SEQUOIA
-# ASUS-Vivobook-X512JA
-This repo contains the efi folders and files needed to run macOS Sequoia on ASUS Vivobook X512J with Open Core.
-This repo includes an OpenCore EFI for the ASUS Vivobook X512JA, and fully working.
+# ASUS Vivobook X512JA Sequoia
+This repo contains the efi folders and files needed to run macOS Sequoia on ASUS Vivobook X512J with Open Core. 
+This repo includes an OpenCore EFI for the ASUS Vivobook X512JA, and fully working. 
 
 Testing on:
 
@@ -13,6 +12,8 @@ RAM | 8 GB DDR4
 WiFi | Intel Wireless-AC 9260
 macOS | Sequoia 15.7.1
 
+
+
 ## What works?
 
 - Audio
@@ -21,7 +22,7 @@ macOS | Sequoia 15.7.1
 - Brightness Control
 - GPU acceleration
 - Keyboard
-- Keybpard Backlight
+- Keyboard Backlight 
 - Trackpad
 - Power Management
 - SD card reader
@@ -40,7 +41,7 @@ macOS | Sequoia 15.7.1
 
 - Secure Boot: Disabled
 - TBD
-- AHCI Mode
+- AHCI SATA Mode
 
 ## Credits
 
