@@ -12,7 +12,8 @@ RAM | 8 GB DDR4
 WiFi | Intel Wireless-AC 9260
 macOS | Sequoia 15.7.1
 
-
+<img src="https://github.com/F4nnnnn/EFI-OC-ASUSX512JA-SEQUOIA/blob/main/About%20Mac.png">
+### I spoofed a quad core i5 for my dual core i3, this is just cosmetic.
 
 ## What works?
 
