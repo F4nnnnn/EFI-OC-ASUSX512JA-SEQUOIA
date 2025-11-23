@@ -2,9 +2,9 @@
 This repo contains the efi folders and files needed to run macOS Sequoia on ASUS Vivobook X512J with Open Core. 
 This repo includes an OpenCore EFI for the ASUS Vivobook X512JA, and fully working. 
 
-Tested on:
+TESTED ON:
 
-Model | ASUS Vivobook X512JA
+MODEL | ASUS VIVOBOOK X512JA
 ------------- | ---------------
 CPU | Intel Core i3-1005G1
 iGPU | Intel UHD Graphics G1
@@ -14,33 +14,30 @@ macOS | Sequoia 15.7.1
 
 <img src="https://github.com/F4nnnnn/EFI-OC-ASUSX512JA-SEQUOIA/blob/main/About%20This%20Mac.png">
 
-### I spoofed a quad core i5 for my dual core i3, this is just cosmetics.
+#### I spoofed a quad core i5 for my dual core i3, this is just cosmetics.
 
-## What works?
+### WORK
+- [x] Intel integrated graphics
+- [x] USB
+- [x] Webcam
+- [x] Brightness control
+- [x] Battery percentage (Charging stops at 61)
+- [x] TouchPad w/ Advanced Gestures
+- [x] Intel WiFi/ Bluetooth
+- [x] SD Card
+- [x] Speakers
+- [x] Headset Combo Jack
+- [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
+- [x] Sleep
+- [x] DRM also works (Sort of)
 
-- Audio
-- Battery readout
-- Boot
-- Brightness Control
-- GPU acceleration
-- Keyboard
-- Keyboard Backlight 
-- Trackpad
-- Power Management
-- SD card reader
-- Sleep
-- USB
-- Speaker
-
-## What doesn't work?
-
-- HDMI Output
-    -Deleted apple driver for Icelake (never fix)
-- Webcam USB2.0 UVC WebCam
-    - Some vivobook series Firmware Webcam not supported 
+### What doesn't work?
+- [ ] HDMI
+    - Deleted apple driver for Icelake (never fix)
+- [ ] Webcam USB2.0 UVC WebCam
+    - Some vivobook series Firmware Webcam not supported
 
 ## BIOS settings
-
 - Secure Boot: Disabled
 - TBD
 - AHCI SATA Mode
