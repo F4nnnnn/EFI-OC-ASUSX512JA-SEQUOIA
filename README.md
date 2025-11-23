@@ -1,2 +1,51 @@
 # EFI-OC-ASUSX512JA-SEQUOIA
-This efi contains the efi folders and files needed to run macOS Sequoia with Open Core.
+# ASUS-Vivobook-X512JA
+This repo contains the efi folders and files needed to run macOS Sequoia on ASUS Vivobook X512J with Open Core.
+This repo includes an OpenCore EFI for the ASUS Vivobook X512JA, and fully working.
+
+Testing on:
+
+Model | ASUS Vivobook X512JA
+------------- | ---------------
+CPU | Intel Core i3-1005G1
+iGPU | Intel UHD Graphics G1
+RAM | 8 GB DDR4
+WiFi | Intel Wireless-AC 9260
+macOS | Sequoia 15.7.1
+
+## What works?
+
+- Audio
+- Battery readout
+- Boot
+- Brightness Control
+- GPU acceleration
+- Keyboard
+- Keybpard Backlight
+- Trackpad
+- Power Management
+- SD card reader
+- Sleep
+- USB
+- Speaker
+
+## What doesn't work?
+
+- HDMI Output
+    -Deleted apple driver for Icelake (never fix)
+- Webcam USB2.0 UVC WebCam
+    - Some vivobook series Firmware Webcam not supported 
+
+## BIOS settings
+
+- Secure Boot: Disabled
+- TBD
+- AHCI Mode
+
+## Credits
+
+* [acidanthera](https://github.com/acidanthera) (for OpenCore and the kexts)
+* [dortania](https://dortania.github.io/OpenCore-Install-Guide/) (for their awesome guide)
+* [VoodooI2C](https://github.com/VoodooI2C) (for VoodooI2C)
+* [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm) (for Intel WiFi)
+* our tester
