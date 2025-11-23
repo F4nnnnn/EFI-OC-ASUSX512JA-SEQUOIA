@@ -16,20 +16,19 @@ macOS | Sequoia 15.7.1
 
 #### I spoofed a quad core i5 for my dual core i3, this is just cosmetics.
 
-### WORK
-- [x] Intel integrated graphics
+### Works?
+- [x] Intel graphics acceleration
 - [x] USB
-- [x] Webcam
-- [x] Brightness control
-- [x] Battery percentage (Charging stops at 61)
+- [x] Battery readout
+- [x] Keyboard w/ Keyboard Backlight F7 Single FN keys 3 Level
 - [x] TouchPad w/ Advanced Gestures
 - [x] Intel WiFi/ Bluetooth
 - [x] SD Card
 - [x] Speakers
-- [x] Headset Combo Jack
-- [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
+- [x] Headset Combo Jack 3.0
+- [x] Apple Services (iCloud, iMessages, FaceTime, Apple Music, Apple TV, Continuity, etc)
 - [x] Sleep
-- [x] DRM also works (Sort of)
+- [x] DRM
 
 ### What doesn't work?
 - [ ] HDMI
